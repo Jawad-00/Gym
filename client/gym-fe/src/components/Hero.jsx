@@ -1,6 +1,6 @@
 // === src/components/Hero.jsx ===
 import React, { useState } from 'react';
-import img from '../assets/img2.png';
+import img from '../assets/img.jpg'; // Ensure you have an image at this path
 const Hero = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
